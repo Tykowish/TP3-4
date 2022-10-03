@@ -1,7 +1,7 @@
 .main{
-    background-color: rgb(231, 144, 163);
+    background-color: rgb(238, 162, 162);
     display: flex;
-    height: 60px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -12,6 +12,7 @@
     font-size: 45px;
     margin-left: 8px;
     margin-right: 12px;
+    margin-bottom: 22px;
 }
 
 .page{
@@ -36,9 +37,6 @@
     justify-content: center;
     justify-items: center;
 }
-.bodyques{
-    gap: 20px;
-}
 
 .image{
     margin-top: 100px; 
@@ -47,7 +45,7 @@
 }
 
 .ques{
-    display: block;
+    display: flex;
     width: 200px;
     justify-content: center;
     justify-items: center;
@@ -56,19 +54,72 @@
 }
 
 .question{
-    display: block;
     width: 300px;
     height: 400px;
-    background-color: violet;
-    border-radius: 3px;
-    margin: 10px;
+    background-color: rgb(241, 168, 168);
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
 }
 
+.button{
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(161, 97, 144);
+    align-content: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+.ques2sup{
+    display: flex;
+    gap: 10px;
+}
 .question2{
-    display: block;
-    width: 3O0px;
-    height: 400px;
-    background-color: violet;
-    border-radius: 3px;
+    width: 750px;
+    height: 200px;
+    background-color: rgb(241, 168, 168);
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+
+.ques2tete{
+    background: white;
     margin: 10px;
+    padding: 1px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.ques2rep{
+    padding-left: 20px;
+
+}
+
+.ques2deco{
+    background-color: rgb(241, 168, 168);
+    height: 218px;
+    width: 50px;
+    margin-top: 32px;
+}
+
+.ques2deco>div{
+    background-color: rgb(250, 232, 235);
+    width: 15x;
+    height: 15px;
+    margin: 17px;
+    border-radius: 500px;
+}
+
+.gif{
+    position: absolute;
+    top: 580px;
+    left: 880px;
 }
