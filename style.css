@@ -1,3 +1,14 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 246, 238)
+}
+
+.body{
+    background: linear-gradient(rgb(255, 209, 209), rgb(255, 246, 238)
+    );
+
+}
 .main{
     background-color: rgb(238, 162, 162);
     display: flex;
@@ -122,4 +133,37 @@
     position: absolute;
     top: 580px;
     left: 880px;
+}
+
+.barchat{
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 22px;
+    size: 50px; 
+    height: 200px;
+    width: 1280px;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(148, 102, 175);
+    box-shadow: 15px 35px rgb(179, 173, 233) 
+}
+.titrechat{
+    margin-top: 200px;
+    font-family: fantasy;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;  
+    border: solid 3px palevioletred;
+    width: 600px;
+    flex-direction: row;
+    margin-left: 27%;
+    background-color: rgb(244, 240, 255);
+}
+
+.chatlala{
+    gap: 10px;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: space-between;   
 }
