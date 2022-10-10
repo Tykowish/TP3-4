@@ -1,14 +1,14 @@
+
 html, body{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 246, 238)
+    background-color: rgb(255, 246, 238);
 }
 
 .body{
     background: linear-gradient(rgb(255, 209, 209), rgb(255, 246, 238)
     );
-
+    font-family:Arial, Helvetica, sans-serif;
 }
+
 .main{
     background-color: rgb(238, 162, 162);
     display: flex;
@@ -16,7 +16,6 @@ html, body{
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    flex-wrap: nowrap;
 }
 
 .logo{
@@ -32,6 +31,7 @@ html, body{
     margin-left: 100px;
     margin-right: 100px;
     font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 .hautdroit{
@@ -50,9 +50,9 @@ html, body{
 }
 
 .image{
-    margin-top: 100px; 
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 50px;
+    border: solid rgb(250, 179, 179) 30px;
 }
 
 .ques{
@@ -92,11 +92,11 @@ html, body{
 }
 .question2{
     width: 750px;
-    height: 200px;
+    height: 210px;
     background-color: rgb(241, 168, 168);
     border-radius: 30px;
     padding: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 10px;
    
 }
@@ -110,15 +110,15 @@ html, body{
 }
 
 .ques2rep{
-    padding-left: 20px;
-
+    padding-left: 15px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .ques2deco{
     background-color: rgb(241, 168, 168);
-    height: 218px;
+    height: 228px;
     width: 50px;
-    margin-top: 32px;
+    margin-top: 52px;
 }
 
 .ques2deco>div{
@@ -131,7 +131,7 @@ html, body{
 
 .gif{
     position: absolute;
-    top: 580px;
+    top: 600px;
     left: 880px;
 }
 
@@ -155,7 +155,6 @@ html, body{
     justify-items: center;  
     border: solid 3px palevioletred;
     width: 600px;
-    flex-direction: row;
     margin-left: 27%;
     background-color: rgb(244, 240, 255);
 }
@@ -166,4 +165,23 @@ html, body{
     align-items: baseline;
     align-content: center;
     justify-content: space-between;   
+}
+
+.formular{
+    margin-top: 100px;
+    background-color: rgb(207, 160, 199);
+    width: 400px;
+    height: 320px;
+    border-radius: 40px;
+    margin-left: 30px;
+ 
+}
+
+.formular2{
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+    justify-content: center;
+    justify-items: center; 
+    font-family:cursive;
 }
